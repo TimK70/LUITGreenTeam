@@ -21,7 +21,7 @@ List.append('VPC')
 print('Top 7 AWS Services:', List)
 List_length = str(len(List))
 #4
-del List [2:4]
+del List [1:3]
 print('Top 5 AWS Services:', List)
 #5
 List_length = str(len(List))
