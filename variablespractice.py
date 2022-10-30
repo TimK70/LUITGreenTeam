@@ -6,3 +6,5 @@ print ("var2[1:5]:",var2[1:5])
 x = "Hello World!"
 print(x[:3])
 print(x[0:6] + "guru99")
+
+
