@@ -10,10 +10,13 @@ department = input("Enter department: Accounting, FinOps, Marketing: ")
 for _ in department:
     if department == "Accounting" or department.lower() == "accounting" :
         print("Processing... ")
+        break
     elif department == "FinOps" or department.lower() == "finops" :
         print("Processing... ")
+        break
     elif department == "Marketing" or department.lower() == "marketing" :
         print("Processing... ")
+        break
     else:
         print("Error: This name generator is only for specific departments. Please enter appropriate department. ")
         raise SystemExit
