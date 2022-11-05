@@ -19,7 +19,7 @@ for _ in department:
         break
     else:
         print("Error: This name generator is only for specific departments. Please enter appropriate department. ")
-        raise SystemExit
+        print('department')
     
 number = int(input("Enter desired number of EC2 Instances: "))
 

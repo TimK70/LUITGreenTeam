@@ -17,15 +17,14 @@ for _ in department:
     elif department == "Marketing" or department.lower() == "marketing" :
         print("Processing... ")
         break
-    else:
-        print("Error: This name generator is only for specific departments. Please enter appropriate department. ")
-        raise SystemExit
-    
-number = int(input("Enter desired number of EC2 Instances: "))
+    elif not department:
+        EC2_name = str(input("Error: This name generator is only for specific departments. Please enter appropriate department. ")
+        
+EC2_name = int(input("Enter desired number of EC2 Instances: "))
 
-if number < 1:
+if nameofEC2 < 1:
     print("Please enter a number greater than 0")
-elif number > 0:
+elif name of EC2 > 0:
     print("")
 
 print("EC2 Instance Names Generated: ")
